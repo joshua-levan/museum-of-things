@@ -17,13 +17,17 @@ h1 {
     font-style: italic;
 }
 
+h2 {
+    margin-top: -0.5rem;
+}
+
 .thing {
     display: flex;
     align-items: center;
     font-family: "Helvetica", sans-serif;
     &__info {
     color: gray;
-    max-width: 418px;
+    width: 418px;
     margin-left: 1rem;
 
 }
