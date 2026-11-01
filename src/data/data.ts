@@ -38,9 +38,15 @@ import industrial6 from './things/industrial_6.webp'
 import industrial7 from './things/industrial_7.webp'
 import industrial8 from './things/industrial_8.webp'
 import industrial9 from './things/industrial_9.webp'
-
-
-
+import specimen1 from './things/specimen_1.webp'
+import specimen2 from './things/specimen_2.webp'
+import specimen3 from './things/specimen_3.webp'
+import specimen4 from './things/specimen_4.webp'
+import specimen5 from './things/specimen_5.webp'
+import specimen6 from './things/specimen_6.webp'
+import specimen7 from './things/specimen_7.webp'
+import specimen8 from './things/specimen_8.webp'
+import specimen9 from './things/specimen_9.webp'
 
 
 interface Things {
@@ -74,8 +80,8 @@ export const things: Things[] = [
         id: 3,
         image: art3,
         title: 'Mask of Tutankhamun',
-        subtitle: 'Eighteenth Dynasty of the New Kingdom in ancient Egypt, c. 1323 BC',
-        description: 'British archaeologist Howard Carter found the mask in 1925 inside the pharaoh\'s tomb in the Valley of the Kings'
+        subtitle: 'Gold, lapis lazuli, obsidian, quartz, colored glass, and semiprecious stones. Discovered Valley of the Kings, 1922. Egypt, New Kingdom, 18th Dynasty, c. 1323 BCE',
+        description: 'The funerary mask of Tutankhamun is one of the most celebrated objects of ancient Egyptian art, crafted from solid gold and inlaid with colored glass and semiprecious stones. Created to cover the pharaoh\'s mummified head, its idealized features, royal headdress, and protective symbolism reflect ancient Egyptian beliefs about kingship, divine power, and the journey into the afterlife.'
     },
     {
         category: 'art',
@@ -305,72 +311,144 @@ export const things: Things[] = [
         category: 'industrial',
         id: 1,
         image: industrial1,
-        title: 'lorem',
-        subtitle: 'ipsum',
-        description: 'dolor'
+        title: 'Apple iMac G3',
+        subtitle: 'Jony Ive, 1998',
+        description: 'The iMac G3, introduced by Apple in 1998, reimagined the personal computer with its translucent, colorful enclosure and distinctive all-in-one design. Created under the direction of Steve Jobs and designer Jony Ive, it challenged the beige conventions of the computer industry, turning technology into an expressive object of industrial design and helping usher in a new era for Apple.'
     },
     {
         category: 'industrial',
         id: 2,
         image: industrial2,
-        title: 'lorem',
-        subtitle: 'ipsum',
-        description: 'dolor'
+        title: 'Owala FreeSip Twist',
+        subtitle: 'Owala, 2024. Insulated stainless steel and BPA-free plastic',
+        description: 'The Owala FreeSip Twist reimagines the reusable water bottle through a streamlined silhouette and a clever dual-purpose drinking system. Its patented spout combines a built-in straw for sipping with a wide opening for drinking, while a leakproof twist-top lid, integrated carry loop, and triple-layer insulation bring thoughtful functionality to a distinctly modern design.'
     },
     {
         category: 'industrial',
         id: 3,
         image: industrial3,
-        title: 'lorem',
-        subtitle: 'ipsum',
-        description: 'dolor'
+        title: 'Blobject',
+        subtitle: 'Organic modernism / Y2K design, Late 1990s-early 2000s',
+        description: 'The blobject is a design movement characterized by soft, organic curves, rounded silhouettes, and fluid, sculptural forms that reject traditional geometric structure. Emerging prominently in the late 1990s and early 2000s, this aesthetic reflected the influence of digital modeling technology and a growing interest in playful, futuristic forms across industrial design, architecture, and consumer products.'
     },
     {
         category: 'industrial',
         id: 4,
         image: industrial4,
-        title: 'lorem',
-        subtitle: 'ipsum',
-        description: 'dolor'
+        title: 'Starbucks To-Go Cup & Siren Logo',
+        subtitle: 'Current simplified logo, 2011',
+        description: 'The Starbucks to-go cup became an instantly recognizable symbol of modern coffee culture, transforming a disposable beverage container into a powerful piece of brand identity. Paired with the iconic green Siren logo, the cup represents Starbucks\' evolution from a Seattle coffee retailer into a global cultural phenomenon, where packaging, graphic design, and everyday rituals converge.'
     },
     {
         category: 'industrial',
         id: 5,
         image: industrial5,
-        title: 'lorem',
-        subtitle: 'ipsum',
-        description: 'dolor'
+        title: 'Converse Chuck Taylor All Star',
+        subtitle: 'Converse, 1917',
+        description: 'The Converse Chuck Taylor All Star began as a basketball shoe in 1917, designed to provide players with lightweight flexibility and ankle support. Endorsed by basketball player Chuck Taylor in the 1920s, it evolved into a cultural icon embraced by generations of musicians, artists, and countercultures. Its canvas upper, rubber toe cap, and unmistakable silhouette have made it one of the most enduring designs in footwear history.'
     },
     {
         category: 'industrial',
         id: 6,
         image: industrial6,
-        title: 'lorem',
-        subtitle: 'ipsum',
-        description: 'dolor'
+        title: 'Blank VHS Cassette (Glow-in-the-Dark Orange)',
+        subtitle: 'Format developed by JVC, Japan 1976',
+        description: 'The VHS cassette became a defining object of home entertainment during the 1980s and 1990s, allowing audiences to record, collect, and replay films in their own homes. Its magnetic tape housed within a compact plastic shell helped transform movie-watching into a personal experience, while brightly colored and novelty editions reflected the playful visual culture of the era.'
     },
     {
         category: 'industrial',
         id: 7,
         image: industrial7,
-        title: 'lorem',
-        subtitle: 'ipsum',
-        description: 'dolor'
+        title: 'Polaroid 600 Cool Cam',
+        subtitle: 'Instant photography and 1990s pop culture',
+        description: 'The Polaroid 600 Cool Cam brought instant photography into the colorful design culture of the 1990s, combining the simplicity of point-and-shoot photography with the excitement of self-developing film. Part of Polaroid\'s iconic 600-series lineup, its playful colored housing and automatic exposure system made spontaneous photography accessible, turning everyday moments into tangible keepsakes within minutes.'
     },
     {
         category: 'industrial',
         id: 8,
         image: industrial8,
-        title: 'lorem',
-        subtitle: 'ipsum',
-        description: 'dolor'
+        title: 'Nokia 3310',
+        subtitle: 'Nokia Finland, 2000',
+        description: 'The Nokia 3310 became one of the most iconic mobile phones of the early 2000s, celebrated for its remarkable durability, long battery life, and straightforward design. Introduced before smartphones transformed mobile communication, it offered essential features like text messaging, customizable ringtones, and the addictive game Snake, becoming a cultural symbol of a simpler era in personal technology.'
     },
     {
         category: 'industrial',
         id: 9,
         image: industrial9,
-        title: 'lorem',
-        subtitle: 'ipsum',
-        description: 'dolor'
+        title: 'Herman Miller Pavilion Exposition Chair',
+        subtitle: 'Herman Miller, Mid-20th century',
+        description: 'The Herman Miller Pavilion Exposition Chair reflects the experimental spirit of mid-century modern furniture design, combining sculptural form with functional simplicity. Its distinctive molded construction and bold silhouette demonstrate the era\'s fascination with new materials, mass production, and the integration of art and industrial design.'
+    },
+    {
+        category: 'specimen',
+        id: 1,
+        image: specimen1,
+        title: 'Acorn',
+        subtitle: 'Origin: Oak trees (genus Quercus), native to the Northern Hemisphere',
+        description: 'The acorn is the seed of an oak tree, a small but remarkable natural structure designed to protect and nourish the next generation of one of the world\'s most enduring tree species. Encased in a hard shell and topped with a distinctive textured cupule, it represents the beginning of the oak\'s life cycle and an important food source for wildlife across temperate ecosystems.'
+    },
+    {
+        category: 'specimen',
+        id: 2,
+        image: specimen2,
+        title: 'Obsidian (Volcanic Glass)',
+        subtitle: 'Notable sources: Mexico, Iceland, Italy, and the western United States',
+        description: 'Obsidian is a naturally occurring volcanic glass formed when lava cools so rapidly that crystals cannot develop. Its smooth, glossy surface and dramatic dark coloration have made it prized for both its visual beauty and its ability to fracture into exceptionally sharp edges. Ancient civilizations used it to create tools, weapons, ceremonial objects, and intricate works of art.'
+    },
+    {
+        category: 'specimen',
+        id: 3,
+        image: specimen3,
+        title: 'Honeycomb',
+        subtitle: 'Beeswax. Function: Storage, brood rearing, and colony organization',
+        description: 'Honeycomb is the intricate hexagonal structure built by honeybees to store honey, pollen, and developing larvae. Constructed from beeswax secreted by worker bees, its repeating six-sided cells maximize storage capacity while using remarkably little material, making it one of nature\'s most celebrated examples of structural efficiency and biomimetic design.'
+    },
+    {
+        category: 'specimen',
+        id: 4,
+        image: specimen4,
+        title: 'Queen Conch Shell',
+        subtitle: 'Calcium carbonate. Lobatus gigas (formerly Strombus gigas)',
+        description: 'The conch shell is the protective outer structure of a large marine gastropod, admired for its sculptural spiral, natural symmetry, and delicate pink interior. Beyond its beauty, conch shells have served cultures around the world as musical instruments, ceremonial objects, and decorative materials, demonstrating the remarkable intersection of natural architecture and human creativity.'
+    },
+    {
+        category: 'specimen',
+        id: 5,
+        image: specimen5,
+        title: 'Bird Feather',
+        subtitle: 'Keratin',
+        description: 'A feather is a remarkable natural structure unique to birds, serving essential roles in flight, insulation, protection, and display. Composed primarily of keratin, its lightweight branching architecture combines flexibility and strength, while intricate patterns and pigmentation create an extraordinary diversity of color and form across the avian world.'
+    },
+    {
+        category: 'specimen',
+        id: 6,
+        image: specimen6,
+        title: 'Pyrite (Fool\'s Gold)',
+        subtitle: 'Iron sulfide (FeS₂)',
+        description: 'Pyrite, commonly known as fool\'s gold, is a naturally occurring iron sulfide mineral recognized for its brilliant metallic luster and distinctive golden color. Its crystalline formations often develop into striking cubes and geometric clusters, making it both a geological curiosity and a historically important source of fascination for prospectors who mistook it for gold.'
+    },
+    {
+        category: 'specimen',
+        id: 7,
+        image: specimen7,
+        title: 'Chambered Nautilus Shell',
+        subtitle: 'Nautilus pompilius. Indo-Pacific Ocean',
+        description: 'The nautilus shell is celebrated for its elegant spiral structure, formed as the animal grows and develops new chambers while maintaining its original body proportions. Its logarithmic spiral has long inspired mathematicians, architects, and designers, often associated with the Fibonacci sequence and the golden ratio. This remarkable natural structure demonstrates the relationship between biological growth, mathematical patterns, and aesthetic form.'
+    },
+    {
+        category: 'specimen',
+        id: 8,
+        image: specimen8,
+        title: 'Autumn Maple Leaf',
+        subtitle: 'Sapindaceae Acer',
+        description: 'The maple leaf is an iconic symbol of autumn, celebrated for its distinctive lobed shape and brilliant seasonal transformation from green to vivid shades of yellow, orange, and red. These colors emerge as chlorophyll breaks down in cooler temperatures, revealing existing pigments and allowing newly produced anthocyanins to create the deep reds and purples characteristic of fall foliage.'
+    },
+    {
+        category: 'specimen',
+        id: 9,
+        image: specimen9,
+        title: 'Tree Twig',
+        subtitle: 'Origin: Woody plants (trees and shrubs)',
+        description: 'A twig is a small woody branch that represents the continuing growth and branching structure of a tree or shrub. Bearing buds, leaf scars, and delicate variations in texture, even these modest fragments reveal the architecture of plant life, illustrating how simple branching patterns support growth, adaptation, and the natural distribution of resources.'
     },
 ]
