@@ -47,7 +47,24 @@ import specimen6 from './things/specimen_6.webp'
 import specimen7 from './things/specimen_7.webp'
 import specimen8 from './things/specimen_8.webp'
 import specimen9 from './things/specimen_9.webp'
-
+import tool1 from './things/tool_1.webp'
+import tool2 from './things/tool_2.webp'
+import tool3 from './things/tool_3.webp'
+import tool4 from './things/tool_4.webp'
+import tool5 from './things/tool_5.webp'
+import tool6 from './things/tool_6.webp'
+import tool7 from './things/tool_7.webp'
+import tool8 from './things/tool_8.webp'
+import tool9 from './things/tool_9.webp'
+import toys1 from './things/toys_1.webp'
+import toys2 from './things/toys_2.webp'
+import toys3 from './things/toys_3.webp'
+import toys4 from './things/toys_4.webp'
+import toys5 from './things/toys_5.webp'
+import toys6 from './things/toys_6.webp'
+import toys7 from './things/toys_7.webp'
+import toys8 from './things/toys_8.webp'
+import toys9 from './things/toys_9.webp'
 
 interface Things {
     category: string;
@@ -451,4 +468,149 @@ export const things: Things[] = [
         subtitle: 'Origin: Woody plants (trees and shrubs)',
         description: 'A twig is a small woody branch that represents the continuing growth and branching structure of a tree or shrub. Bearing buds, leaf scars, and delicate variations in texture, even these modest fragments reveal the architecture of plant life, illustrating how simple branching patterns support growth, adaptation, and the natural distribution of resources.'
     },
+    {
+        category: 'tool',
+        id: 1,
+        image: tool1,
+        title: 'Garden Spade',
+        subtitle: 'Forged steel and wood',
+        description: 'The garden spade is a fundamental hand tool designed for digging, planting, transplanting, and working soil with precision. Its compact blade and sturdy handle provide leverage and control in confined spaces, making it an enduring example of practical tool design shaped by centuries of agricultural and horticultural tradition.'
+    },
+    {
+        category: 'tool',
+        id: 2,
+        image: tool2,
+        title: 'Astronomical Telescope',
+        subtitle: 'Key pioneers: Hans Lippershey and Galileo Galilei. Early 17th-century Europe',
+        description: 'The home telescope brings the distant universe into view, transforming complex optical technology into an accessible tool for exploration and discovery. Using carefully aligned lenses or mirrors to gather and magnify light, it allows observers to study the Moon, planets, stars, and deep-sky objects, reflecting humanity\'s enduring curiosity about the cosmos.'
+    },
+    {
+        category: 'tools',
+        id: 3,
+        image: tool3,
+        title: 'Sharpie Permanent Marker',
+        subtitle: 'Sanford Ink Company, 1964',
+        description: 'The Sharpie permanent marker transformed everyday writing and labeling through its simple, durable design and versatile ink technology. Introduced in 1964, its quick-drying, water-resistant ink and distinctive black barrel made it an essential tool across offices, workshops, classrooms, and creative studios, becoming an enduring icon of functional design.'
+    },
+    {
+        category: 'tools',
+        id: 4,
+        image: tool4,
+        title: 'Moleskine Classic Notebook',
+        subtitle: 'Paper, cardboard, and elastic binding. Brand relaunched: 1997, Italy',
+        description: 'The Moleskine notebook is a modern interpretation of the classic pocket notebook, celebrated for its minimalist design, rounded corners, elastic closure, and expandable inner pocket. Inspired by notebooks historically used by artists and writers such as Vincent van Gogh and Ernest Hemingway, the contemporary Moleskine brand revived the tradition in 1997, turning a simple writing tool into an icon of creativity, travel, and personal expression.'
+    },
+    {
+        category: 'tools',
+        id: 5,
+        image: tool5,
+        title: 'Cotton Swab (Q-tip)',
+        subtitle: 'Leo Gerstenzang, 1923',
+        description: 'The cotton swab is a simple yet versatile personal care tool, consisting of a small tuft of cotton wrapped around one or both ends of a slender stick. Patented by Leo Gerstenzang in 1923 after observing his wife apply cotton to toothpicks, it became a household staple for personal grooming, cosmetics, cleaning, and precision applications.'
+    },
+    {
+        category: 'tools',
+        id: 6,
+        image: tool6,
+        title: 'Scissors',
+        subtitle: 'Origin: Ancient Egypt, c. 1500 BCE. Modern crossed-blade design: Ancient Rome, c. 100 CE',
+        description: 'Scissors are a deceptively simple cutting tool built around two intersecting blades joined by a central pivot, converting hand pressure into precise cutting force. Dating back to ancient Egypt around 1500 BCE, scissors evolved through centuries of metalworking innovation into an essential everyday object used in everything from tailoring and crafts to medicine and industry.'
+    },
+    {
+        category: 'tools',
+        id: 7,
+        image: tool7,
+        title: 'Toothbrush',
+        subtitle: 'Early origins: Ancient civilizations, c. 3000 BCE. Bristle toothbrush: China, c. 1498. Nylon bristles introduced: 1938, United States',
+        description: 'The toothbrush has evolved from simple chewing sticks used by ancient civilizations into one of the most widely used personal care tools in the world. The modern bristle toothbrush emerged in China during the late 15th century, using stiff hog hair attached to a bamboo or bone handle, before nylon bristles revolutionized its design in 1938.'
+    },
+    {
+        category: 'tools',
+        id: 8,
+        image: tool8,
+        title: 'Staedtler Mars Plastic Eraser',
+        subtitle: 'Staedtler, Germany. Introduced 1960s',
+        description: 'The Staedtler Mars Plastic eraser is a precision-engineered stationery classic, known for its clean erasing performance and distinctive blue-and-white paper sleeve. Introduced as part of Staedtler\'s professional drawing and writing supplies, its soft synthetic material removes graphite marks with minimal smudging and paper damage, making it a favorite among artists, designers, architects, and students.'
+    },
+    {
+        category: 'tools',
+        id: 9,
+        image: tool9,
+        title: 'No. 2 Graphite Pencil',
+        subtitle: 'Cedar wood, graphite, and clay',
+        description: 'The No. 2 pencil is one of the most enduring tools in education, writing, and visual communication. Its familiar yellow-painted wooden body contains a graphite-and-clay core engineered to balance darkness with durability, while its standardized hardness makes it ideal for general writing, drawing, and standardized testing.'
+    },
+    {
+        category: 'toys',
+        id: 1,
+        image: toys1,
+        title: 'Quad Roller Skate',
+        subtitle: 'James Leonard Plimpton (pioneered the modern quad design), 1863',
+        description: 'The roller skate transformed recreation and personal transportation by introducing a wearable system of wheels that allowed people to glide across paved surfaces. Patented in its modern inline form in the 19th century, the four-wheel or quad skate became especially popular during the 20th century, evolving into an enduring symbol of leisure, self-expression, and retro design.'
+    },
+    {
+        category: 'toys',
+        id: 2,
+        image: toys2,
+        title: 'Red Rubber Balloon',
+        subtitle: 'Natural latex rubber',
+        description: 'The red balloon is a deceptively simple object that has become a powerful symbol in art, popular culture, and visual storytelling. Made possible by advances in rubber manufacturing during the 19th century, the modern inflatable balloon transformed a basic scientific curiosity into an enduring object of celebration, play, and childhood nostalgia.'
+    },
+    {
+        category: 'toys',
+        id: 3,
+        image: toys3,
+        title: 'Gloworm',
+        subtitle: 'Playskool, 1982',
+        description: 'The Playskool Gloworm became a beloved children\'s bedtime companion after its introduction in 1982, combining a soft plush body with a gently illuminated face that glowed when squeezed. Designed to comfort infants and toddlers through tactile play and soothing light, it became an enduring icon of 1980s toy design and childhood nostalgia.'
+    },
+    {
+        category: 'toys',
+        id: 4,
+        image: toys4,
+        title: 'Yo-Yo',
+        subtitle: 'Ancient Greece, c. 500 BCE',
+        description: 'The yo-yo is one of the world\'s oldest and most enduring skill toys, consisting of two connected disks joined by an axle around which a length of string is wound. Its up-and-down motion relies on gravity, momentum, and rotational energy, transforming a simple mechanical object into a playful demonstration of physics, coordination, and dexterity.'
+    },
+    {
+        category: 'toys',
+        id: 5,
+        image: toys5,
+        title: 'Rubik\'s Cube',
+        subtitle: 'Ernő Rubik, 1974',
+        description: 'The Rubik\'s Cube is a three-dimensional mechanical puzzle that challenged the world with its deceptively simple design and extraordinary mathematical complexity. Invented by Hungarian architecture professor Ernő Rubik in 1974, its six rotating faces and colorful grid of movable squares create more than 43 quintillion possible configurations, making it one of the most successful and recognizable puzzles in history.'
+    },
+    {
+        category: 'toys',
+        id: 6,
+        image: toys6,
+        title: 'Pretzel Inflatable Pool Float',
+        subtitle: 'Inflatable PVC or vinyl',
+        description: 'The inflatable pool float transforms a simple buoyant structure into a playful expression of leisure and summer culture. Shaped like an oversized pretzel, this novelty float combines the familiar silhouette of a twisted snack with lightweight inflatable construction, turning an everyday food icon into an unexpected piece of recreational design.'
+    },
+    {
+        category: 'toys',
+        id: 7,
+        image: toys7,
+        title: 'Alphie',
+        subtitle: 'Playskool, c. 1980s',
+        description: 'Playskool Alphie was an interactive educational robot toy that introduced a generation of children to early learning through electronic games, lights, and sound. With its friendly robot face and colorful interchangeable learning cards, Alphie combined emerging consumer electronics with approachable toy design, reflecting the growing popularity of educational technology in the 1980s.'
+    },
+    {
+        category: 'toys',
+        id: 8,
+        image: toys8,
+        title: 'Troll Doll',
+        subtitle: 'Thomas Dam, 1959',
+        description: 'The Troll Doll became an unmistakable pop-culture icon, known for its oversized head, jewel-like eyes, and signature shock of brightly colored hair. Created by Danish fisherman and woodworker Thomas Dam in 1959, the small good-luck figures grew into a worldwide toy phenomenon, blending Scandinavian folk-art inspiration with an exuberant, unmistakably playful design.'
+    },
+    {
+        category: 'toys',
+        id: 9,
+        image: toys9,
+        title: 'Teddy Ruxpin',
+        subtitle: 'Worlds of Wonder: Ken Forsse, 1985 Plush fabric, plastic, electronic components',
+        description: 'Teddy Ruxpin revolutionized the talking toy by bringing stories to life through synchronized speech, moving eyes, and an animated mouth. Introduced in 1985, the plush bear used cassette tapes and animatronic mechanisms to transform storytelling into an immersive experience, becoming one of the defining toys of the 1980s.'
+    },
+    
 ]

@@ -17,10 +17,6 @@ h1 {
   font-style: italic;
 }
 
-h2 {
-  margin-top: -0.5rem;
-}
-
 .thing {
   display: flex;
   align-items: center;
