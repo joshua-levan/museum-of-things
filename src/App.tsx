@@ -26,7 +26,7 @@ const App = () => {
       <Nav toggleMap = {toggleMap}/>
       <Thing things={things} index={index} changeIndex={changeIndex}/>
       {mapOn && <Map />}
-      <Footer />
+      <Footer things={things} index={index}/>
     </div>
   )
 }

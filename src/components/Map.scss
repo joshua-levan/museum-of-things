@@ -1,3 +1,14 @@
+.map-modal {
+    background-color: white;
+    position: absolute;
+    top: 4rem;
+    width: 100%;
+    height: calc(100vh - 10rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .map-container {
     position: relative;
     .category-section {

@@ -1,7 +1,16 @@
 import './Thing.css'
 
+interface Things {
+    category: string;
+    id: number;
+    image: string;
+    title: string;
+    subtitle: string | null;
+    description: string;
+}
+
 interface ThingProps {
-    things: object[];
+    things: Things[];
     index: number;
     changeIndex: () => void
 }
