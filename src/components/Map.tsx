@@ -1,8 +1,11 @@
-import React from 'react'
+import map from '../images/map.svg'
+import './Map.css'
 
 const Map = () => {
   return (
-    <div>Map</div>
+    <div className='map-container'>
+        <img src={map} alt="" />
+    </div>
   )
 }
 
