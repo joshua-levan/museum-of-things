@@ -8,10 +8,13 @@ import Map from './components/Map'
 
 const App = () => {
   const [mapOn, setMapOn] = useState(true)
+  const toggleMap = ():void => {
+    setMapOn(prev => !prev)
+  }
 
   return (
     <div className='app-container'>
-      <Nav />
+      <Nav toggleMap = {toggleMap}/>
       <Thing />
       {mapOn && <Map />}
       <Footer />

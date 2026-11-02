@@ -18,9 +18,9 @@ const Thing = () => {
                 <h1>{things[index].title}</h1>
                 <h2>{things[index].subtitle}</h2>
                 <p>{things[index].description}</p>
+                <button onClick={changeIndex}>↻ Random Artifact</button>
             </div>
         </div>
-        <button onClick={changeIndex}>↻ Random Artifact</button>
     </>
   )
 }
