@@ -1,16 +1,10 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
 h1, h2, p {
     font-size: 1rem;
 }
 
 h1, h2 {
     color: rgb(57, 57, 57);
+    margin-bottom: 1rem;
 }
 
 h1 {
@@ -20,7 +14,6 @@ h1 {
 .thing {
     display: flex;
     align-items: center;
-    font-family: "Helvetica", sans-serif;
     &__info {
     color: gray;
     width: 325px;
