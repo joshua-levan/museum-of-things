@@ -1,3 +1,50 @@
+.map-container {
+  position: relative;
+}
+.map-container .category-section {
+  color: gray;
+  cursor: pointer;
+  position: absolute;
+}
+.map-container .category-section:hover {
+  color: rgb(57, 57, 57);
+}
+.map-container .toys {
+  top: 13rem;
+  left: 14.5rem;
+}
+.map-container .industrial {
+  top: 6rem;
+  left: 8.5rem;
+}
+.map-container .culture {
+  top: 3.5rem;
+  left: 24.5rem;
+}
+.map-container .tools {
+  top: 17rem;
+  left: 7.75rem;
+}
+.map-container .art {
+  top: 10rem;
+  left: 21.5rem;
+}
+.map-container .everyday {
+  top: 10rem;
+  left: 3rem;
+}
+.map-container .lobby {
+  top: 25rem;
+  left: 12.5rem;
+}
+.map-container .bugs {
+  top: 17.5rem;
+  left: 25.5rem;
+}
+.map-container .nature {
+  top: 23.5rem;
+  left: 25rem;
+}
 .map-container img {
   height: 30rem;
 }/*# sourceMappingURL=Map.css.map */
