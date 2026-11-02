@@ -24,6 +24,7 @@ h1 {
   margin-top: 1rem;
   border: none;
   padding: 0.5rem;
+  background-color: rgb(234, 234, 234);
 }
 .thing__info button:active {
   background-color: rgb(225, 225, 225);

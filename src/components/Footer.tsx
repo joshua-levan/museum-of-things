@@ -1,8 +1,11 @@
 import './Footer.css'
+import logo from '../images/logotype.svg'
 
 const Footer = () => {
   return (
-    <footer>Footer</footer>
+    <footer>
+        <img src={logo} alt="" />
+    </footer>
   )
 }
 

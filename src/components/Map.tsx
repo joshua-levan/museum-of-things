@@ -13,7 +13,7 @@ const Map = () => {
         <div className="bugs category-section">Bugs!</div>
         <div className="lobby category-section">Lobby</div>
         <div className="nature category-section">Nature</div>
-        <img src={map} alt="museum map" />
+        <img src={map} alt="museum map" draggable="false"/>
     </div>
   )
 }

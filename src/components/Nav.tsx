@@ -7,7 +7,7 @@ type NavProps = {
 
 const Nav = ({ toggleMap }:NavProps) => {
   return (
-    <img onClick={toggleMap} className="map-icon" src={icon} alt="map icon" aria-labelledby='open map' />
+    <img onClick={toggleMap} className="map-icon" src={icon} alt="map icon" aria-labelledby='open map' draggable="false"/>
   )
 }
 
