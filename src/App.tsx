@@ -9,7 +9,7 @@ import Nav from './components/Nav'
 import Map from './components/Map'
 
 const App = () => {
-  const [mapOn, setMapOn] = useState(true)
+  const [mapOn, setMapOn] = useState(false)
   const toggleMap = ():void => {
     setMapOn(prev => !prev)
   }
