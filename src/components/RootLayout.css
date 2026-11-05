@@ -30,4 +30,13 @@ button:active {
   align-items: center;
   height: 100vh;
   font-family: "Helvetica", sans-serif;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 418px;
+}
+section img {
+  width: 33.333%;
 }/*# sourceMappingURL=RootLayout.css.map */

@@ -30,3 +30,12 @@ button {
     height: 100vh;
     font-family: "Helvetica", sans-serif;
 }
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 418px;
+    img {
+        width: 33.333%;
+    }
+}
