@@ -1,5 +1,6 @@
 import { Outlet } from "react-router";
 import { useState } from "react";
+import '../App.css'
 
 import Nav from "./Nav";
 import Map from "./Map";
