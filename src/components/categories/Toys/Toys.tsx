@@ -1,3 +1,4 @@
+import { Link } from "react-router"
 import { things } from "../../../data/data"
 
 const Toys = () => {
@@ -6,11 +7,10 @@ const Toys = () => {
     return (
         <section>
             {toys.map(toy => (
-                <img
-                    key={`${toy.category}${toy.id}`}
+                <Link className="link" key={`${toy.category}${toy.id}`} to={`/toys/${toy.id}`}><img
                     src={toy.image}
                     alt={toy.title}
-                />
+                /></Link>
             ))}
         </section>
     )

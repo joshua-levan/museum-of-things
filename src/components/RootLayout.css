@@ -23,6 +23,10 @@ button:active {
   background-color: rgb(225, 225, 225);
 }
 
+a {
+  text-decoration: none;
+}
+
 .app-container {
   display: flex;
   flex-direction: column;
@@ -35,8 +39,13 @@ button:active {
 section {
   display: flex;
   flex-wrap: wrap;
+  height: 418px;
   width: 418px;
 }
-section img {
+section a {
   width: 33.333%;
+  height: 33.333%;
+}
+section a img {
+  height: 100%;
 }/*# sourceMappingURL=RootLayout.css.map */
