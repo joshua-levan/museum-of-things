@@ -1,5 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import { createBrowserRouter, RouterProvider } from "react-router";
 
 import App from './App.tsx'
 import NotFoundPage from './components/NotFoundPage.tsx';
@@ -8,7 +9,8 @@ import RootLayout from './components/RootLayout.tsx';
 import Toys from './components/categories/Toys/Toys.tsx';
 import ToyProfile from './components/categories/Toys/ToyProfile.tsx';
 
-import { createBrowserRouter, RouterProvider } from "react-router";
+import Industrial from './components/categories/Industrial/Industrial.tsx';
+import IndustrialProfile  from './components/categories/Industrial/IndustrialProfile.tsx'
 const router = createBrowserRouter([
   {
     element: <RootLayout />,
@@ -25,6 +27,14 @@ const router = createBrowserRouter([
       {
         path: "/toys/:toyId",
         element: <ToyProfile />,
+      },
+      {
+        path: "/industrial",
+        element: <Industrial />,
+      },
+      {
+        path: "/industrial/:industrialId",
+        element: <IndustrialProfile />,
       }
     ],
   },
