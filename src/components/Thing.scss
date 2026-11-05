@@ -17,15 +17,5 @@ h1 {
     color: gray;
     width: 325px;
     margin-left: 2rem;
-    button {
-        cursor: pointer;
-        margin-top: 1rem;
-        border: none;
-        padding: 0.5rem;
-        background-color: rgb(234, 234, 234);
-        &:active{
-            background-color: rgb(225, 225, 225);
-        }
-    }
 }
 }

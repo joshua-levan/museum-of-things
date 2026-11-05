@@ -1,19 +1,25 @@
+import { Link } from 'react-router'
+
 import map from '../images/map.svg'
 import './Map.css'
 
-const Map = () => {
+type MapProps = {
+  toggleMap: () => void
+}
+
+const Map = ({ toggleMap }:MapProps) => {
   return (
     <div className="map-modal">
         <div className='map-container'>
-            <div className="toys category-section">Toys</div>
-            <div className="industrial category-section">Industrial Design</div>
-            <div className="culture category-section">Culture</div>
-            <div className="tools category-section">Tools</div>
-            <div className="art category-section">Art</div>
-            <div className="everyday category-section">Everyday</div>
-            <div className="bugs category-section">Bugs!</div>
-            <div className="lobby category-section">Lobby</div>
-            <div className="nature category-section">Nature</div>
+            <Link to="/toys" onClick={toggleMap} className="toys category-section">Toys</Link>
+            <div onClick={toggleMap} className="industrial category-section">Industrial Design</div>
+            <div onClick={toggleMap} className="culture category-section">Culture</div>
+            <div onClick={toggleMap} className="tools category-section">Tools</div>
+            <div onClick={toggleMap} className="art category-section">Art</div>
+            <div onClick={toggleMap} className="everyday category-section">Everyday</div>
+            <div onClick={toggleMap} className="bugs category-section">Bugs!</div>
+            <Link to="/" onClick={toggleMap} className="lobby category-section">Lobby</Link>
+            <div onClick={toggleMap} className="nature category-section">Nature</div>
             <img src={map} alt="museum map" draggable="false"/>
         </div>
     </div>

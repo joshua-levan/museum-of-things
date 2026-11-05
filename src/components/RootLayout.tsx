@@ -17,7 +17,7 @@ const RootLayout = () => {
   return (
     <div className="app-container">
       <Nav toggleMap = {toggleMap}/>
-      {mapOn && <Map />}
+      {mapOn && <Map toggleMap = {toggleMap}/>}
 
         <main>
             <Outlet />

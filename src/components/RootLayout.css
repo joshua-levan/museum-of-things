@@ -12,6 +12,17 @@ ol, ul {
   list-style: none;
 }
 
+button {
+  cursor: pointer;
+  margin-top: 1rem;
+  border: none;
+  padding: 0.5rem;
+  background-color: rgb(234, 234, 234);
+}
+button:active {
+  background-color: rgb(225, 225, 225);
+}
+
 .app-container {
   display: flex;
   flex-direction: column;
