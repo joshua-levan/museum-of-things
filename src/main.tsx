@@ -11,6 +11,9 @@ import ToyProfile from './components/categories/Toys/ToyProfile.tsx';
 
 import Industrial from './components/categories/Industrial/Industrial.tsx';
 import IndustrialProfile  from './components/categories/Industrial/IndustrialProfile.tsx'
+
+import Culture from './components/categories/Culture/Culture.tsx';
+import CultureProfile from './components/categories/Culture/CultureProfile.tsx';
 const router = createBrowserRouter([
   {
     element: <RootLayout />,
@@ -35,6 +38,14 @@ const router = createBrowserRouter([
       {
         path: "/industrial/:industrialId",
         element: <IndustrialProfile />,
+      },
+      {
+        path: "/culture",
+        element: <Culture />,
+      },
+      {
+        path: "/culture/:cultureId",
+        element: <CultureProfile />,
       }
     ],
   },
