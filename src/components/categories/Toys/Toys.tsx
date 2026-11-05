@@ -10,6 +10,7 @@ const Toys = () => {
                 <Link className="link" key={`${toy.category}${toy.id}`} to={`/toys/${toy.id}`}><img
                     src={toy.image}
                     alt={toy.title}
+                    draggable="false"
                 /></Link>
             ))}
         </section>
