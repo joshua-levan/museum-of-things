@@ -13,9 +13,7 @@ const App = () => {
   }
 
   return (
-    <div className='app-container'>
-      <Thing things={things} index={index} changeIndex={changeIndex}/>
-    </div>
+    <Thing things={things} index={index} changeIndex={changeIndex}/>
   )
 }
 

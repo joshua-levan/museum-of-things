@@ -10,13 +10,4 @@ body {
 
 ol, ul {
   list-style: none;
-}
-
-.app-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  height: 100vh;
-  font-family: "Helvetica", sans-serif;
 }/*# sourceMappingURL=App.css.map */
