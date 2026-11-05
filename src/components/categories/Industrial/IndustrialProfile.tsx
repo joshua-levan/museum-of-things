@@ -13,7 +13,7 @@ const IndustrialProfile = () => {
                 <h1>{artifact.title}</h1>
                 <h2>{artifact.subtitle}</h2>
                 <p>{artifact.description}</p>
-                <Link to="/industrial"><button>↻ industrial Design</button></Link>
+                <Link to="/industrial"><button>↻ Industrial Design</button></Link>
             </div>
     </div>
   )

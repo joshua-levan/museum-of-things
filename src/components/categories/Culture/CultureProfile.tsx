@@ -13,7 +13,7 @@ const CultureProfile = () => {
                 <h1>{artifact.title}</h1>
                 <h2>{artifact.subtitle}</h2>
                 <p>{artifact.description}</p>
-                <Link to="/culture"><button>↻ culture Design</button></Link>
+                <Link to="/culture"><button>↻ Culture</button></Link>
             </div>
     </div>
   )
