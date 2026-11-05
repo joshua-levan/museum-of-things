@@ -17,7 +17,7 @@ h1 {
 .thing__info {
   color: gray;
   width: 325px;
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 .thing__info button {
   cursor: pointer;
