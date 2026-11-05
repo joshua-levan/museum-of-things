@@ -6,6 +6,7 @@ import NotFoundPage from './components/NotFoundPage.tsx';
 import RootLayout from './components/RootLayout.tsx';
 
 import Toys from './components/categories/Toys/Toys.tsx';
+import ToyProfile from './components/categories/Toys/ToyProfile.tsx';
 
 import { createBrowserRouter, RouterProvider } from "react-router";
 const router = createBrowserRouter([
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
       {
         path: "/toys",
         element: <Toys />,
+      },
+      {
+        path: "/toys/:toyId",
+        element: <ToyProfile />,
       }
     ],
   },
