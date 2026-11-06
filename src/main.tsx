@@ -21,6 +21,9 @@ import ToolProfile from './components/categories/Tools/ToolProfile.tsx';
 import Art from './components/categories/Art/Art.tsx';
 import ArtProfile from './components/categories/Art/ArtProfile.tsx';
 
+import Everyday from './components/categories/Everyday/Everyday.tsx';
+import EverydayProfile from './components/categories/Everyday/EverydayProfile.tsx';
+
 const router = createBrowserRouter([
   {
     element: <RootLayout />,
@@ -69,6 +72,14 @@ const router = createBrowserRouter([
       {
         path: "/art/:artId",
         element: <ArtProfile />,
+      },
+      {
+        path: "/everyday",
+        element: <Everyday />,
+      },
+      {
+        path: "/everyday/:everydayId",
+        element: <EverydayProfile />,
       }
     ],
   },
