@@ -24,6 +24,9 @@ import ArtProfile from './components/categories/Art/ArtProfile.tsx';
 import Everyday from './components/categories/Everyday/Everyday.tsx';
 import EverydayProfile from './components/categories/Everyday/EverydayProfile.tsx';
 
+import Nature from './components/categories/Nature/Nature.tsx';
+import NatureProfile from './components/categories/Nature/NatureProfile.tsx';
+
 const router = createBrowserRouter([
   {
     element: <RootLayout />,
@@ -80,6 +83,14 @@ const router = createBrowserRouter([
       {
         path: "/everyday/:everydayId",
         element: <EverydayProfile />,
+      },
+      {
+        path: "/nature",
+        element: <Nature />,
+      },
+      {
+        path: "/nature/:natureId",
+        element: <NatureProfile />,
       }
     ],
   },
