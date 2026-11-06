@@ -14,7 +14,7 @@ const Map = ({ toggleMap }:MapProps) => {
             <Link to="/toys" onClick={toggleMap} className="toys category-section">Toys</Link>
             <Link to="/industrial" onClick={toggleMap} className="industrial category-section">Industrial Design</Link>
             <Link to="/culture" onClick={toggleMap} className="culture category-section">Culture</Link>
-            <div onClick={toggleMap} className="tools category-section">Tools</div>
+            <Link to="/tools" onClick={toggleMap} className="tools category-section">Tools</Link>
             <div onClick={toggleMap} className="art category-section">Art</div>
             <div onClick={toggleMap} className="everyday category-section">Everyday</div>
             <div onClick={toggleMap} className="bugs category-section">Bugs!</div>

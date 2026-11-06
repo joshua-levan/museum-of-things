@@ -469,7 +469,7 @@ export const things: Things[] = [
         description: 'A twig is a small woody branch that represents the continuing growth and branching structure of a tree or shrub. Bearing buds, leaf scars, and delicate variations in texture, even these modest fragments reveal the architecture of plant life, illustrating how simple branching patterns support growth, adaptation, and the natural distribution of resources.'
     },
     {
-        category: 'tool',
+        category: 'tools',
         id: 1,
         image: tool1,
         title: 'Garden Spade',
@@ -477,7 +477,7 @@ export const things: Things[] = [
         description: 'The garden spade is a fundamental hand tool designed for digging, planting, transplanting, and working soil with precision. Its compact blade and sturdy handle provide leverage and control in confined spaces, making it an enduring example of practical tool design shaped by centuries of agricultural and horticultural tradition.'
     },
     {
-        category: 'tool',
+        category: 'tools',
         id: 2,
         image: tool2,
         title: 'Astronomical Telescope',

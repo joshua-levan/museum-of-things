@@ -14,6 +14,9 @@ import IndustrialProfile  from './components/categories/Industrial/IndustrialPro
 
 import Culture from './components/categories/Culture/Culture.tsx';
 import CultureProfile from './components/categories/Culture/CultureProfile.tsx';
+
+import Tools from './components/categories/Tools/Tools.tsx';
+import ToolProfile from './components/categories/Tools/ToolProfile.tsx';
 const router = createBrowserRouter([
   {
     element: <RootLayout />,
@@ -46,6 +49,14 @@ const router = createBrowserRouter([
       {
         path: "/culture/:cultureId",
         element: <CultureProfile />,
+      },
+      {
+        path: "/tools",
+        element: <Tools />,
+      },
+      {
+        path: "/tools/:toolId",
+        element: <ToolProfile />,
       }
     ],
   },
