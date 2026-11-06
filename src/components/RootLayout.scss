@@ -49,3 +49,18 @@ section {
         }
     }
 }
+
+.bugs {
+    display: flex;
+    flex-wrap: wrap;
+    height: 418px;
+    width: 418px;
+
+    a {
+        width: 50%;
+        height: 50%;
+        img {
+            height: 100%;
+        }
+    }
+}

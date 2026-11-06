@@ -48,4 +48,18 @@ section a {
 }
 section a img {
   height: 100%;
+}
+
+.bugs {
+  display: flex;
+  flex-wrap: wrap;
+  height: 418px;
+  width: 418px;
+}
+.bugs a {
+  width: 50%;
+  height: 50%;
+}
+.bugs a img {
+  height: 100%;
 }/*# sourceMappingURL=RootLayout.css.map */

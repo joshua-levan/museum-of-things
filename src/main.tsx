@@ -27,6 +27,9 @@ import EverydayProfile from './components/categories/Everyday/EverydayProfile.ts
 import Nature from './components/categories/Nature/Nature.tsx';
 import NatureProfile from './components/categories/Nature/NatureProfile.tsx';
 
+import Bugs from './components/categories/Bugs/Bugs.tsx';
+import BugsProfile from './components/categories/Bugs/BugsProfile.tsx';
+
 const router = createBrowserRouter([
   {
     element: <RootLayout />,
@@ -91,6 +94,14 @@ const router = createBrowserRouter([
       {
         path: "/nature/:natureId",
         element: <NatureProfile />,
+      },
+      {
+        path: "/bugs",
+        element: <Bugs />,
+      },
+      {
+        path: "/bugs/:bugsId",
+        element: <BugsProfile />,
       }
     ],
   },
