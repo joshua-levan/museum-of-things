@@ -11,6 +11,11 @@
 
 .map-container {
     position: relative;
+    transform-origin: center center;
+    @media (max-width: 430px) {
+        transform: scale(0.75);
+    }
+
     .category-section {
         color: gray;
         cursor: pointer;
@@ -55,7 +60,7 @@
         left: 12.5rem;
     }
 
-    .bugs {
+    .bugs-link {
         top: 17.5rem;
         left: 25.5rem;
     }

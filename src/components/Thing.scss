@@ -24,4 +24,7 @@ h1 {
   img {
     height: 26.125rem;
   }
+  @media (max-width: 600px){
+    flex-direction: column;
+  }
 }
