@@ -1,21 +1,31 @@
 .map-modal {
   background-color: white;
   position: absolute;
-  top: 5rem;
+  top: 6rem;
   width: 100%;
-  height: calc(100vh - 11rem);
+  height: calc(100vh - 12rem);
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-height: 400px) {
+  .map-modal {
+    top: 7rem;
+  }
 }
 
 .map-container {
   position: relative;
   transform-origin: center center;
 }
-@media (max-width: 430px) {
+@media (max-width: 670px) {
   .map-container {
-    transform: scale(0.75);
+    transform: scale(0.8);
+  }
+}
+@media (max-height: 400px) {
+  .map-container {
+    transform: scale(0.7);
   }
 }
 .map-container .category-section {
