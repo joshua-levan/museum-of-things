@@ -1,8 +1,11 @@
-h1, h2, p {
+h1,
+h2,
+p {
   font-size: 1rem;
 }
 
-h1, h2 {
+h1,
+h2 {
   color: rgb(57, 57, 57);
 }
 
@@ -16,6 +19,9 @@ h1 {
 }
 .thing__info {
   color: gray;
-  width: 325px;
+  width: 20.312rem;
   margin-left: 2rem;
+}
+.thing img {
+  height: 26.125rem;
 }/*# sourceMappingURL=Thing.css.map */

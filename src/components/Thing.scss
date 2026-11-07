@@ -1,21 +1,27 @@
-h1, h2, p {
-    font-size: 1rem;
+h1,
+h2,
+p {
+  font-size: 1rem;
 }
 
-h1, h2 {
-    color: rgb(57, 57, 57);
+h1,
+h2 {
+  color: rgb(57, 57, 57);
 }
 
 h1 {
-    font-style: italic;
+  font-style: italic;
 }
 
 .thing {
-    display: flex;
-    align-items: center;
-    &__info {
+  display: flex;
+  align-items: center;
+  &__info {
     color: gray;
-    width: 325px;
+    width: 20.312rem;
     margin-left: 2rem;
-}
+  }
+  img {
+    height: 26.125rem;
+  }
 }

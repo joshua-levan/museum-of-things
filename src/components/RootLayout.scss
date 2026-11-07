@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: clamp(0.75rem, 0.438rem + 0.625vw, 1rem);
+}
+
 body {
     margin: 0;
 	padding: 0;
@@ -17,6 +21,7 @@ button {
         border: none;
         padding: 0.5rem;
         background-color: rgb(234, 234, 234);
+        font-size: 0.9rem;
         &:active{
             background-color: rgb(225, 225, 225);
         }
@@ -38,8 +43,8 @@ a {
 section {
     display: flex;
     flex-wrap: wrap;
-    height: 418px;
-    width: 418px;
+    height: 26.125rem;
+    width: 26.125rem;
 
     a {
         width: 33.333%;
@@ -53,8 +58,8 @@ section {
 .bugs {
     display: flex;
     flex-wrap: wrap;
-    height: 418px;
-    width: 418px;
+    height: 26.125rem;
+    width: 26.125rem;
 
     a {
         width: 50%;
