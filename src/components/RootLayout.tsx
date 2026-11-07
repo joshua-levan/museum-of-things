@@ -20,7 +20,7 @@ const RootLayout = () => {
       {mapOn && <Map toggleMap = {toggleMap}/>}
 
         <main>
-            <Outlet />
+            {!mapOn && <Outlet />}
         </main>
 
       <Footer />
