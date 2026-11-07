@@ -21,11 +21,13 @@ h1 {
   color: gray;
   width: 20.312rem;
   margin-left: 2rem;
+  margin-bottom: 4rem;
 }
 .thing img {
   height: 26.125rem;
+  margin-bottom: 2rem;
 }
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .thing {
     flex-direction: column;
   }
